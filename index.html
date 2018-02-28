@@ -82,12 +82,12 @@
 
                 <nav id="main-menu" class="collapse">
                     <ul>
-                        <li class=""><a href="index.html">Home</a></li>
+                        <li class=""><a data-scroll href="#home">Home</a></li>
                         <!-- STAR COLLAPSE MOBILE MENU -->
-                        <li><a data-toggle="collapse" href="#about" aria-expanded="false">À Propos</a></li>
-                        <li><a data-toggle="collapse" href="#services" aria-expanded="false">Services</a></li>
-                        <li><a data-toggle="collapse" href="#projects" aria-expanded="false">Projects</a></li>
-                        <li class="hidden-md-up"><a href="contact-us.html">Nous Contacter</a></li>
+                        <li><a  data-scroll href="#about" >À Propos</a></li>
+                        <li><a  data-scroll href="#services" >Services</a></li>
+                        <li><a  data-scroll href="#projects" >Projects</a></li>
+                        <li class="hidden-md-up"><a data-scroll href="#quote">Nous Contacter</a></li>
                         <li></li>
                         <li></li>
                         <li></li>
@@ -184,7 +184,7 @@
 
     <!-- START SLIDER -->
     <!-- START REVOLUTION SLIDER 5.4.1 auto mode -->
-    <section class="rev_slider_wrapper">
+    <section class="rev_slider_wrapper" id="home">
         <div id="rev_slider_1078_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
             <ul>
                 <!-- SLIDE  -->
@@ -281,7 +281,7 @@
     <!-- END SECTION INFO -->
 
     <!-- START WHY CHOOSING US -->
-    <section class="choosing">
+    <section class="choosing" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 cons hovblue hover-effect">
@@ -332,7 +332,7 @@
     <!-- END WHY CHOOSING US -->
 
     <!-- START SECTION PROJECTS -->
-    <section class="portfolio">
+    <section class="portfolio" id="projects">
         <div class="container-fluid">
             <div class="top-headings-section">
                 <h2 class="text-center">Latest <span>Projects</span></h2>
@@ -558,7 +558,8 @@
     <!-- END SECTION TESTIMONIALS -->
 
     <!-- START OUR SERVICES -->
-    <section class="services">
+    <!-- <a name="services"></a> -->
+    <section class="services" id="services">
         <div class="container">
             <div class="top-headings-section">
                 <h2 class="text-center">What <span>We Offer</span></h2>
