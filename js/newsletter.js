@@ -6,7 +6,7 @@
         callback: mailchimpCallback,
         //replace bellow url with your own mailchimp form post url inside the url: "---".
         //to learn how to get your own URL, please check documentation file.
-        url: "---"
+        url: "https://facebook.us12.list-manage.com/subscribe/post?u=deef3c26dc0cf6b62354d19bf&amp;id=e3b98d8bd0"
     });
 
     function mailchimpCallback(resp) {
